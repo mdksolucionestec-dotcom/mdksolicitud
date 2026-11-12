@@ -1,10 +1,18 @@
-# Requerimientos · MDK Soluciones
+# Requerimientos · M Dreieck
 
 App web para solicitudes de **viáticos**, **salida de almacén**, **compras** y **lista de materiales y costos**.
 Funciona sin internet y se instala en el celular como una app.
 
 - App: https://mdksolucionestec-dotcom.github.io/mdksolicitud/
 - Backend: Google Apps Script (hoja *APP SOLIICTUDES GENERAL*)
+
+## Flujo de viáticos
+
+1. El solicitante (o alguien a su nombre) captura el viaje en la app.
+2. Costos recibe un correo con el formato preliminar y el botón **Capturar importe** (no necesita la app).
+3. Los autorizadores del área (hoja *Areas*) autorizan con su PIN en la app.
+4. El formato oficial con firmas electrónicas y QR se envía a costos, RH, atención operativa y cxp1.
+5. Cuentas por pagar puede marcar la dispersión desde el botón del correo.
 
 ## Archivos
 
